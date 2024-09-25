@@ -1,0 +1,26 @@
+ // Product Card Styles
+ .card {
+     background: white;
+     border: 1px solid #ddd;
+     border-radius: border-radius(8);
+     margin: $spacing-unit;
+     padding: $spacing-unit;
+     width: 300px;
+     text-align: center;
+     img {
+         max-width: 100%;
+         border-radius: $border-radius;
+     }
+     h2 {
+         color: $primary-color;
+         margin: $spacing-unit 0;
+     }
+     p {
+         font-size: 1.2em;
+         margin: $spacing-unit 0;
+     }
+     // Nested button in card
+     .card-button {
+         @include button-styles($secondary-color);
+     }
+ }

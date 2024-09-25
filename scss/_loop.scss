@@ -1,0 +1,12 @@
+@each $key,
+$value in $items {
+    .#{key} {
+        @extend .item !optional;
+        h3 {
+            content: $value;
+        }
+        p {
+            content: 'Description for ' + $value;
+        }
+    }
+}

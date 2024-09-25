@@ -1,0 +1,20 @@
+@each $key,
+$value in $products {
+    .#{key} {
+        @extend .card;
+        // Access product details from the map
+        h2 {
+            content: map-get($value, 'name');
+        }
+        p {
+            content: 'Price: $' + map-get($value, 'price');
+        }
+        img {
+            src: map-get($value, 'image');
+        }
+        // Nested button with add to cart functionality
+        .card-button {
+            content: 'Add to Cart';
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "sass-1",
+    "version": "1.0.0",
+    "description": "sass tutorials for the learning",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "sass --watch scss/_main.scss:css/style.css"
+    },
+    "keywords": [
+        "sass",
+        "css",
+        "npm",
+        "node"
+    ],
+    "author": "sakthi sri",
+    "license": "ISC",
+    "devDependencies": {
+        "sass": "^1.79.3"
+    }
+}

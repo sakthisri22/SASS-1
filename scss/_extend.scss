@@ -1,0 +1,38 @@
+  // Base Styles
+  body {
+      font-family: Arial, sans-serif;
+      color: $text-color;
+      background-color: $background-color;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .header {
+      background-color: $primary-color;
+      padding: $spacing-unit;
+      color: white;
+      text-align: center;
+      h1 {
+          margin: 0;
+      }
+  }
+  
+  .container {
+      @include flex-center;
+      flex-direction: column;
+      padding: $spacing-unit;
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+  
+  // Footer Styles
+  .footer {
+      background-color: $primary-color;
+      color: white;
+      text-align: center;
+      padding: $spacing-unit;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+  }

@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #3498db;
+  padding: 16px;
+  color: white;
+  text-align: center;
+}
+.header h1 {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.key h2 {
+  content: "Product 1";
+}
+.key p {
+  content: "Price: $29.99";
+}
+.key img {
+  src: "https://via.placeholder.com/150";
+}
+.key .card-button {
+  content: "Add to Cart";
+}
+
+.key h2 {
+  content: "Product 2";
+}
+.key p {
+  content: "Price: $39.99";
+}
+.key img {
+  src: "https://via.placeholder.com/150";
+}
+.key .card-button {
+  content: "Add to Cart";
+}
+
+.key h2 {
+  content: "Product 3";
+}
+.key p {
+  content: "Price: $49.99";
+}
+.key img {
+  src: "https://via.placeholder.com/150";
+}
+.key .card-button {
+  content: "Add to Cart";
+}
+
+.card, .key {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 16px;
+  padding: 16px;
+  width: 300px;
+  text-align: center;
+}
+.card img, .key img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+.card h2, .key h2 {
+  color: #3498db;
+  margin: 16px 0;
+}
+.card p, .key p {
+  font-size: 1.2em;
+  margin: 16px 0;
+}
+.card .card-button, .key .card-button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.card .card-button:hover, .key .card-button:hover {
+  background-color: rgb(36.616, 162.384, 89.948);
+}
+
+.key h3 {
+  content: "Item One";
+}
+.key p {
+  content: "Description for Item One";
+}
+
+.key h3 {
+  content: "Item Two";
+}
+.key p {
+  content: "Description for Item Two";
+}
+
+.key h3 {
+  content: "Item Three";
+}
+.key p {
+  content: "Description for Item Three";
+}
+
+.key h3 {
+  content: "Item Four";
+}
+.key p {
+  content: "Description for Item Four";
+}
+
+.key h3 {
+  content: "Item Five";
+}
+.key p {
+  content: "Description for Item Five";
+}
+
+/*# sourceMappingURL=style.css.map */
